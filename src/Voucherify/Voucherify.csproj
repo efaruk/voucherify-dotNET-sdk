@@ -23,9 +23,9 @@
     <!-- References specific to .NET Standard 2.0 -->
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' Or '$(TargetFramework)' == 'netstandard2.1'">
         <PackageReference Include="JsonSubTypes" Version="2.0.1" />
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-        <PackageReference Include="RestSharp" Version="112.0.0" />
-        <PackageReference Include="Polly" Version="8.1.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+        <PackageReference Include="RestSharp" Version="112.1.0" />
+        <PackageReference Include="Polly" Version="8.6.4" />
         <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
         <!-- Reference System.Web for .NET Standard -->
         <Reference Include="System.Web" />
@@ -38,8 +38,8 @@
         <PackageReference Include="RestSharp" Version="112.0.0" />
         <PackageReference Include="Polly" Version="8.1.0" />
         <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-preview.4.24156.5" />
-        <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0-preview.4.24156.5" />
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0-preview.4.24156.5" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.9" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.9" />
     </ItemGroup>
 </Project>

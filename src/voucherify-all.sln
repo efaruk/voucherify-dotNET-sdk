@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voucherify", "Voucherify\Voucherify.csproj", "{9326A551-0031-B361-269E-BC46D96CD167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voucherify.Test", "Voucherify.Test\Voucherify.Test.csproj", "{008AB990-57AC-56C4-1175-21234EBC02FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9326A551-0031-B361-269E-BC46D96CD167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9326A551-0031-B361-269E-BC46D96CD167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9326A551-0031-B361-269E-BC46D96CD167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9326A551-0031-B361-269E-BC46D96CD167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008AB990-57AC-56C4-1175-21234EBC02FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008AB990-57AC-56C4-1175-21234EBC02FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008AB990-57AC-56C4-1175-21234EBC02FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008AB990-57AC-56C4-1175-21234EBC02FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD8C7028-205A-421D-93CD-85E64808738D}
+	EndGlobalSection
+EndGlobal
